@@ -12,7 +12,7 @@ description = {
 
 version = "0.0-1"
 source = {
-   url = "git://github.com/abom/lua-rest-iyo-auth.git"
+   url = "git://github.com/abom/lua-resty-iyo-auth.git"
 }
 
 dependencies = {
