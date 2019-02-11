@@ -1,7 +1,7 @@
 # lua-resty-iyo-auth
 [itsyou.online](https://itsyou.online) authentication for resty, based on [ngx-oauth2](https://github.com/jirutka/ngx-oauth) (code is simplified/rewritten and cppjwt is used instead).
 
-# Installation
+### Installation
 Using luarocks:
 
 `lurocks install luua-resty-iyo-auth`
@@ -10,7 +10,7 @@ This will give you the path where files are installed (should be used in [nginx.
 
 `lua-resty-iyo-auth 0.0-1 is now installed in /sandbox/openresty/luarocks`
 
-# Usage and configuration
+### Usage and configuration
 A sample nginx.conf file with possible $iyo_* config variables can be found [here](conf/nginx.example.conf):
 
 ```conf
@@ -44,7 +44,7 @@ http {
         set $iyo_organization '<organization_name/client id>';
         set $iyo_secret '<itsyou.online client secret>';
         set $iyo_redirect_uri 'http://localhost:8080/_iyo/callback';
-        # othe_r possible configs
+        # other possible configs
         # set $iyo_authorization_url 'https://itsyou.online/v1/oauth/auth...
         # set $iyo_token_url 'https://itsyou.online/v1/oauth/tok...
         # set $iyo_jwt_url 'https://itsyou.online/v1/oauth/jwt...
