@@ -6,7 +6,7 @@ local default_config = {
     authorization_url = iyo_base_url..'/authorize',
     token_url = iyo_base_url..'/access_token',
     jwt_url = iyo_base_url..'/jwt',
-    redirect_uri = '/_oauth/callback'
+    redirect_uri = '/_iyo/callback'
 }
 
 local M = {}
