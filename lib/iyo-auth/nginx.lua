@@ -20,7 +20,7 @@ function M.set_response_cookie(name, value, expires_in)
     end
 
     local cookie = name..'='..value..'; Path=/; HttpOnly; Max-Age='..expires_in
-	ngx.header['Set-Cookie'] = cookie
+    ngx.header['Set-Cookie'] = cookie
 end
 
 return M

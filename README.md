@@ -66,3 +66,7 @@ http {
     }
 }
 ```
+
+### Itsyou.online user info and other scopes
+In other layers (than authentication), you can get user info from decoding `iyo_jwt` cookie after successful login.
+Other scopes other than `memberof` are not supported for now (it only checks if the user is a member of the organization set by `$iyo_organization`), extra scopes might be added later as a configuration option to be requested from itsyou.online when signing in.

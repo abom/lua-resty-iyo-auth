@@ -4,9 +4,6 @@ local http_client = require('iyo-auth.http')
 
 local M = {}
 
-function M.set_cookie()
-end
-
 function M.authorization_url(conf, state)
     local params = {
         response_type = 'code',
