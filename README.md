@@ -4,7 +4,7 @@
 ### Installation
 Using luarocks:
 
-`lurocks install luua-resty-iyo-auth`
+`luarocks install lua-resty-iyo-auth`
 
 This will give you the path where files are installed (should be used in [nginx.conf](#Usage)), like:
 
