@@ -4,8 +4,8 @@ description = {
    summary = "itsyou.online authentication for resty",
    detailed = "",
    license = "Apache v2",
-   homepage = "https://github.com/abom/lua-rest-iyo-auth",
-   issues_url = "https://github.com/abom/lua-rest-iyo-auth/issues/new",
+   homepage = "https://github.com/abom/lua-resty-iyo-auth",
+   issues_url = "https://github.com/abom/lua-resty-iyo-auth/issues/new",
    maintainer = "Abdelrahman Ghanem",
    labels = {"auth", "resty", "itsyou.online", "iyo"}
 }
